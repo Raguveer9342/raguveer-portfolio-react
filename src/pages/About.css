@@ -1,0 +1,141 @@
+.about-section {
+  position: relative;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-text-column,
+.about-sidebar-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+  padding: 2.25rem;
+  transition: border-color var(--transition-normal);
+}
+
+.about-card:hover {
+  border-color: rgba(16, 185, 129, 0.15);
+}
+
+.about-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.about-card-text {
+  font-size: 0.975rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* Core Stack badging */
+.core-stack-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.core-tech-badge {
+  background: rgba(10, 10, 10, 0.4);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.core-tech-badge:hover {
+  border-color: var(--accent-border);
+  background: rgba(16, 185, 129, 0.02);
+}
+
+.badge-indicator {
+  width: 4px;
+  height: 24px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+.badge-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.badge-category {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Learning List */
+.learning-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.learning-list-item {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.learning-list-item .list-marker {
+  color: var(--accent);
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* Responsive sizes */
+@media (max-width: 1024px) {
+  .core-stack-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .about-card {
+    padding: 1.75rem;
+  }
+  .core-stack-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .core-stack-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,40 @@
+.section-title-container {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-subtitle {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+}
+
+.section-title .accent-marker {
+  color: var(--accent);
+  margin-right: 0.5rem;
+  font-weight: 800;
+  font-family: var(--font-heading);
+}
+
+@media (max-width: 768px) {
+  .section-title-container {
+    margin-bottom: 2.5rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
