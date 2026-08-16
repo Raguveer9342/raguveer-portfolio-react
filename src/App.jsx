@@ -73,6 +73,6 @@ export default App;
 
 // git status(To check the status)
 // After the code has been edited, use :
-// git add.
+// git add .
 // git commit -m "Updated portfolio"
 // git push

@@ -80,7 +80,7 @@ export default function Home() {
 
             <motion.div className="hero-socials" variants={itemVariants}>
               <a 
-                href={config.github} 
+                href="https://github.com/Raguveer9342" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hero-social-link"
@@ -89,7 +89,7 @@ export default function Home() {
                 <GithubIcon size={20} />
               </a>
               <a 
-                href={config.linkedin} 
+                href="www.linkedin.com/in/raguveer-m-739060356"
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hero-social-link"

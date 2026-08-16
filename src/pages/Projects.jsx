@@ -7,6 +7,7 @@ import SectionTitle from '../components/SectionTitle';
 import PageTransition from '../components/PageTransition';
 import './Projects.css';
 
+
 // Import the generated placeholder image
 import projectPlaceholderImg from '../assets/project-placeholder.jpg';
 
@@ -53,7 +54,7 @@ export default function Projects() {
               >
                 <div className="project-image-wrapper">
                   <img 
-                    src={projectPlaceholderImg} 
+                    src={project.image} 
                     alt={project.title} 
                     className="project-image"
                   />

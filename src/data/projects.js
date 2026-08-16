@@ -2,12 +2,12 @@ export const projectsData = [
   {
     id: "project-01",
     indexText: "PROJECT 01",
-    title: "PROJECT COMING SOON",
-    description: "This placeholder is ready for your first project. Once built, you can customize the title, description, image, technologies, and URLs in projects.js.",
-    image: "src/assets/project-placeholder.jpg",
-    technologies: ["React.js", "CSS", "Vite"],
-    githubUrl: "GITHUB_URL_HERE",
-    liveUrl: "LIVE_DEMO_URL_HERE"
+    title: "BMW Models Showcase",
+    description: "A responsive and interactive BMW models showcase website built using HTML, CSS, and JavaScript. The project features a modern automotive-themed design, responsive layouts, smooth animations, and interactive elements to provide an engaging browsing experience across different BMW models.",
+    image: "src/assets/BMW-m1.jpg",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/Raguveer9342/BMW-Project",
+    liveUrl: "https://bmw-project-dppq.vercel.app/"
   },
   {
     id: "project-02",
