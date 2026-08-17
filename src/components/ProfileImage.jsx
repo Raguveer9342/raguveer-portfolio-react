@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import profileImg from '../assets/profile.jpg';
 import './ProfileImage.css';
-import profileImg from '../assets/professional_MernStack.png'
+import profileImg from '../assets/Professional_MernStack.png'
 
 export default function ProfileImage({ className = '' }) {
   const [imageError, setImageError] = useState(false);
