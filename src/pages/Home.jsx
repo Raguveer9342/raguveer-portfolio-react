@@ -89,7 +89,7 @@ export default function Home() {
                 <GithubIcon size={20} />
               </a>
               <a 
-                href="www.linkedin.com/in/raguveer-m-739060356"
+                href="https://www.linkedin.com/in/raguveer-m-739060356/"
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hero-social-link"
