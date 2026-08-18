@@ -4,7 +4,7 @@ export const projectsData = [
     indexText: "PROJECT 01",
     title: "BMW Model Showcase",
     description: "A responsive and interactive BMW models showcase website built using HTML, CSS, and JavaScript. The project features a modern automotive-themed design, responsive layouts, smooth animations, and interactive elements to provide an engaging browsing experience across different BMW models.",
-    image: "src/assets/BMW-m1.jpg",
+    image: "src/assets/BMW-img.jpeg",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Raguveer9342/BMW-Project",
     liveUrl: "https://bmw-project-dppq.vercel.app/"
