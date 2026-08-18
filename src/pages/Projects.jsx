@@ -6,7 +6,7 @@ import { projectsData } from '../data/projects';
 import SectionTitle from '../components/SectionTitle';
 import PageTransition from '../components/PageTransition';
 import './Projects.css';
-import BMWimg from '../src/assets/BMW-img.jpeg';
+
 
 
 // Import the generated placeholder image
