@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: "project-01",
     indexText: "PROJECT 01",
-    title: "BMW Models Showcase",
+    title: "BMW Model Showcase",
     description: "A responsive and interactive BMW models showcase website built using HTML, CSS, and JavaScript. The project features a modern automotive-themed design, responsive layouts, smooth animations, and interactive elements to provide an engaging browsing experience across different BMW models.",
     image: "src/assets/BMW-m1.jpg",
     technologies: ["HTML", "CSS", "JavaScript"],
