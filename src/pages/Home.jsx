@@ -73,7 +73,7 @@ export default function Home() {
               <Button variant="primary" href="/projects">
                 View My Work
               </Button>
-              <Button variant="secondary" href="/contact">
+              <Button variant="secondary" href="/Contact">
                 Contact Me
               </Button>
             </motion.div>

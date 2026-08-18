@@ -3,9 +3,9 @@ export const config = {
   role: "Mern Stack Developer",
   status: "AVAILABLE FOR OPPORTUNITIES",
   tagline: "Building modern web experiences with clean code, thoughtful design and a passion for learning.",
-  email: "EMAIL_HERE", // Editable placeholder
-  github: "GITHUB_URL_HERE", // Editable placeholder
-  linkedin: "LINKEDIN_URL_HERE", // Editable placeholder
+  email: "raguveermurugan2005@gmail.com", // Editable placeholder
+  github: "https://github.com/Raguveer9342", // Editable placeholder
+  linkedin: "https://www.linkedin.com/in/raguveer-m-739060356/", // Editable placeholder
   education: {
     degree: "Bachelor's Degree in Computer Science",
     college: "DMI Engineering College",
